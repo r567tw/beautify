@@ -25,7 +25,7 @@ export default {
   methods:{
     fetchCharacter()
     {
-      fetch(`http://gank.io/api/random/data/福利/1`,{
+      fetch(`https://gank.io/api/random/data/福利/1`,{
         method:'GET'
       }).then(response=>response.json())
         .then(json=>this.character=json.results[0])
