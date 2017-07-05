@@ -23,7 +23,7 @@ export default {
   name: 'app',
   data () {
     return {
-      title: 'Hello World',
+      title: '正妹牆',
       ids:[1,2,3]
     }
   },
